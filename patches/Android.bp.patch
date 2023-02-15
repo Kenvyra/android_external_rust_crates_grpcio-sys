@@ -100,7 +100,6 @@ index 45707bc..d0369e6 100644
 +    source_stem: "grpc-bindings",
 +    crate_name: "grpc_bindgen",
 +    bindgen_flags: [
-+        "--size_t-is-usize",
 +        "--constified-enum-module grpc_status_code",
 +        "--default-enum-style rust",
 +        "--allowlist-function=\\bgrpc_.*",
